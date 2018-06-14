@@ -31,6 +31,7 @@ class ReceiverViewController: UIViewController {
         // Tell location manager to start monitoring for the beacon region
         
         self.locationManager?.startMonitoring(for: self.myBeaconRegion!)
+        //d
         
     }
 
