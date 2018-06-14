@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		F938D5AE20D23A8D00992946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F938D5AD20D23A8D00992946 /* AppDelegate.swift */; };
-		F938D5B020D23A8E00992946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F938D5AF20D23A8E00992946 /* ViewController.swift */; };
 		F938D5B320D23A8E00992946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F938D5B120D23A8E00992946 /* Main.storyboard */; };
 		F938D5B520D23A8E00992946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F938D5B420D23A8E00992946 /* Assets.xcassets */; };
 		F938D5B820D23A8F00992946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F938D5B620D23A8F00992946 /* LaunchScreen.storyboard */; };
+		F938D5C120D23D8000992946 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F938D5C020D23D8000992946 /* CoreLocation.framework */; };
+		F938D5C320D23D8700992946 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F938D5C220D23D8700992946 /* CoreBluetooth.framework */; };
+		F938D5C520D23D9100992946 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F938D5C420D23D9100992946 /* CoreGraphics.framework */; };
+		F938D5C720D23D9C00992946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F938D5C620D23D9C00992946 /* UIKit.framework */; };
+		F938D5C920D23DA200992946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F938D5C820D23DA200992946 /* Foundation.framework */; };
+		F938D5CB20D2449800992946 /* ReceiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F938D5CA20D2449800992946 /* ReceiverViewController.swift */; };
+		F938D5CD20D244B400992946 /* BroadcasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F938D5CC20D244B400992946 /* BroadcasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F938D5AA20D23A8D00992946 /* iBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F938D5AD20D23A8D00992946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F938D5AF20D23A8E00992946 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F938D5B220D23A8E00992946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F938D5B420D23A8E00992946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F938D5B720D23A8F00992946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F938D5B920D23A8F00992946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F938D5C020D23D8000992946 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F938D5C220D23D8700992946 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		F938D5C420D23D9100992946 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F938D5C620D23D9C00992946 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F938D5C820D23DA200992946 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F938D5CA20D2449800992946 /* ReceiverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverViewController.swift; sourceTree = "<group>"; };
+		F938D5CC20D244B400992946 /* BroadcasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F938D5C920D23DA200992946 /* Foundation.framework in Frameworks */,
+				F938D5C720D23D9C00992946 /* UIKit.framework in Frameworks */,
+				F938D5C520D23D9100992946 /* CoreGraphics.framework in Frameworks */,
+				F938D5C320D23D8700992946 /* CoreBluetooth.framework in Frameworks */,
+				F938D5C120D23D8000992946 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,7 @@
 			children = (
 				F938D5AC20D23A8D00992946 /* iBeacon */,
 				F938D5AB20D23A8D00992946 /* Products */,
+				F938D5BF20D23D8000992946 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +73,26 @@
 			isa = PBXGroup;
 			children = (
 				F938D5AD20D23A8D00992946 /* AppDelegate.swift */,
-				F938D5AF20D23A8E00992946 /* ViewController.swift */,
+				F938D5CA20D2449800992946 /* ReceiverViewController.swift */,
+				F938D5CC20D244B400992946 /* BroadcasterViewController.swift */,
 				F938D5B120D23A8E00992946 /* Main.storyboard */,
 				F938D5B420D23A8E00992946 /* Assets.xcassets */,
 				F938D5B620D23A8F00992946 /* LaunchScreen.storyboard */,
 				F938D5B920D23A8F00992946 /* Info.plist */,
 			);
 			path = iBeacon;
+			sourceTree = "<group>";
+		};
+		F938D5BF20D23D8000992946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F938D5C820D23DA200992946 /* Foundation.framework */,
+				F938D5C620D23D9C00992946 /* UIKit.framework */,
+				F938D5C420D23D9100992946 /* CoreGraphics.framework */,
+				F938D5C220D23D8700992946 /* CoreBluetooth.framework */,
+				F938D5C020D23D8000992946 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F938D5B020D23A8E00992946 /* ViewController.swift in Sources */,
+				F938D5CB20D2449800992946 /* ReceiverViewController.swift in Sources */,
 				F938D5AE20D23A8D00992946 /* AppDelegate.swift in Sources */,
+				F938D5CD20D244B400992946 /* BroadcasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z65663868K;
 				INFOPLIST_FILE = iBeacon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.inventura.iBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z65663868K;
 				INFOPLIST_FILE = iBeacon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.inventura.iBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
